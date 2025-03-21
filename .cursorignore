@@ -1,0 +1,56 @@
+# Python虚拟环境
+.venv/
+venv/
+env/
+.env/
+.pyenv/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Node.js
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# 编译文件
+*.so
+*.dylib
+*.dll
+*.exe
+*.out
+*.app
+
+# 缓存
+.cache/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# 临时文件
+*.swp
+*~
+.DS_Store
+Thumbs.db
+
+# 大文件和数据集
+*.h5
+*.hdf5
+*.pkl
+*.npz
+*.npy
+data/
+dataset/
+models/
+*.pt
+*.pth
+*.ckpt
+
+# 日志
+logs/
+*.log
+
+# 输出
+dist/
+build/ 
